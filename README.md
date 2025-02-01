@@ -8,7 +8,7 @@ Therefore you also need webspace or a webserver running PHP with sqlite3 support
 
 <p align="center"><img src="screenshot.jpg"></p>
 
-Since I don't care much about design issues, I used the website of @iluvatyr as an inspiration (https://stk.iluvatyr.com). I partly adopted his/her design. Thankx to him/her for serving as template.
+Since I don't care much about design issues, I used the website of @iluvatyr as an inspiration (https://stk.iluvatyr.com/records). I partly adopted his/her design. Thankx to him/her for serving as template.
 
 It is obviously important that the script knows the path to your sqlite3 database (usually named stkservers.db). The path has to be configured at the beginning of index.php. Please make sure that your webserver has sufficient access rights to read your database.
 
