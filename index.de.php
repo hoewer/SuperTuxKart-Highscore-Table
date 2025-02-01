@@ -51,7 +51,7 @@ function displayRow($trackName, $icon, $reverse, $mode, $laps, $username, $resul
     <title>SuperTuxKart Highscore Table</title>
     <link rel="icon" type="image/png"  href="./media/icon.png">
     <link rel="stylesheet" href="./css/default.css" />
-    <link rel="stylesheet" href="./css/twentytwenty-style.css" />
+    <link rel="stylesheet" href="./css/more-style.css" />
 </head>
 <body style="background-color:#F5EFE0">
     <form action="" method="GET">
