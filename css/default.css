@@ -1,0 +1,97 @@
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.box95 {
+    max-width: 95%;
+}
+.marginauto {
+    display: block;
+    margin: 10px auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.btn {
+    margin: 10px;
+    text-align: center;
+}
+.rowbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1rem auto;
+}
+.records_form {
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align: left;
+}
+.input[type=text] {
+    max-width: 250px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: larger;
+ }
+
+.trackicon {
+    width:100%;
+    max-width: 64px; 
+    height: auto;
+    margin: 5px auto 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+.box_venue_records {
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+}
+.trackimage {
+    width:100%;
+    max-width: 300px; 
+    height: auto;
+    margin-right: 3rem;
+}
+.trackname {
+    font-size: 50px;
+}
+.recordheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headingicon {
+    width:100%;
+    max-width: 32px; 
+    height: auto;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.tablebox {
+    height:700px;   
+    max-width:1200px; 
+}
+table th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #f4e6c1;
+}
+@media (max-width: 900px) {
+    .rowbox {
+    display: block;
+    align-items: center;
+    text-align: center;
+    }
+    .tablebox {
+    font-size: smaller;
+    width: 100%;
+    min-width:900px;
+    height: 500px;
+    }
+}
