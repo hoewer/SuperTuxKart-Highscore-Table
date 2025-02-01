@@ -1,0 +1,157 @@
+html,
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+img,
+form,
+table,
+tr,
+th,
+td {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	background: #F5EFE0;
+	box-sizing: border-box;
+	color: #000;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.8rem;
+	letter-spacing: -0.015em;
+	text-align: left;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+a {
+	transition: all 0.15s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0s !important;
+		transition-duration: 0s !important;
+	}
+}
+
+b {
+	font-weight: 700;
+}
+
+a {
+	color: #cd2653;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+input {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 1;
+}
+
+input {
+	border-color: #dcd7ca;
+	color: #000;
+}
+
+select {
+	font-size: 1em;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: #cd2653;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0.0333em;
+	line-height: 1.25;
+	margin: 0;
+	opacity: 1;
+	padding: 1.1em 1.44em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: opacity 0.15s linear;
+}
+
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
+table {
+	border: 0.1rem solid #dcd7ca;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	font-size: 1.6rem;
+	margin: 4rem 0;
+	max-width: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+th,
+td {
+	border: 0.1rem solid #dcd7ca;
+	line-height: 1.4;
+	margin: 0;
+	overflow: visible;
+	padding: 0.5em;
+}
+
+th {
+	font-weight: 700;
+}
+
+@media (min-width: 700px) {
+	table {
+		font-size: 1.8rem;
+	}
+
+	input[type="submit"] {
+		font-size: 1.7rem;
+	}
+}
