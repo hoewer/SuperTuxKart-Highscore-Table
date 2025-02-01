@@ -23,7 +23,6 @@ $track = array(
 	array("volcano_island", "Vulkaninsel", 2),
 	array("xr591", "XR591", 3),
 	array("zengarden", "Zengarten", 4),
-	array("emule-track", "(Addon) Emule track", 3)
 );
 
 ?>
