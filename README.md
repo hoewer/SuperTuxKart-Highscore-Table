@@ -16,4 +16,5 @@ The tracks.en.php lists all race tracks as an array, including their STK-ID (whi
 
 On Github the array only contains the default tracks included in STK 1.4; add-on tracks or additional individual tracks can easily be added as required. The corresponding track icons (dropped in /media/tracks and named according their STK-ID) can generated (resized) from the screenshots inside the individual track's folder (or simply copied from iluvatyrs website).
 
-In addition to tracks.en.php, I have added a German version. The file to be used can be specified at the beginning of index.php. The labels are defined in the index.php. A version with German labels is included in the repo. For other languages, both the labels and tracks can be easily adapted.
+In addition to tracks.en.php, I have added a German version. The file to be used can be specified at the beginning of index.php.
+The labels are also defined in the index.php. A version with German labels is included in the repo. For other languages, both the labels and tracks can be easily adapted. Please make sure to store any edited file as UTF-8 to avoid problems with special characters.
