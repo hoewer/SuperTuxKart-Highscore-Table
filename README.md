@@ -12,6 +12,8 @@ Since I don't care much about design issues, I used the website of @iluvatyr as 
 
 It is obviously important that the script knows the path to your sqlite3 database (usually named stkservers.db). The path has to be configured at the beginning of index.php. Please make sure that your webserver has sufficient access rights to read your database.
 
-The tracks.php lists all race tracks as an array, including their STK-ID (which is the track's folder name), human readable title and the default number of laps. It would be possible to gather this information from the various track.xml files in the assets/addons folder of your STK installation. I decided against this solution since it would require even more access rights and significantly impair performance depending on the number of tracks installed.
+The tracks.en.php lists all race tracks as an array, including their STK-ID (which is the track's folder name), human readable title (english) and the default number of laps. It would be possible to gather this information from the various track.xml files in the assets/addons folder of your STK installation. I decided against this solution since it would require even more access rights and significantly impair performance depending on the number of tracks installed.
 
 On Github the array only contains the default tracks included in STK 1.4; add-on tracks or additional individual tracks can easily be added as required. The corresponding track icons (dropped in /media/tracks and named according their STK-ID) can generated (resized) from the screenshots inside the individual track's folder (or simply copied from iluvatyrs website).
+
+In addition to tracks.en.php, I have added a German version. The file to be used can be specified at the beginning of index.php. The labels are defined in the index.php. A version with German labels is included in the repo. For other languages, both the labels and tracks can be easily adapted.
