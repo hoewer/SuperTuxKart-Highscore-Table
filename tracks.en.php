@@ -22,8 +22,7 @@ $track = array(
 	array("stk_enterprise", "STK Enterprise", 3),
 	array("volcano_island", "Volcan Island", 2),
 	array("xr591", "XR591", 3),
-	array("zengarden", "Zen Garden", 4),
-	array("emule-track", "(Addon) Emule track", 3)
+	array("zengarden", "Zen Garden", 4)
 );
 
 ?>
