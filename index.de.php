@@ -1,7 +1,9 @@
 <?php
 
-$dbConnect = new SQLite3('/volume1/docker/supertuxkart/stkservers.db');
+// Set SQLite3 database to be used
+$dbConnect = new SQLite3('/path/to/your/stkservers.db');
 
+// Set tracks file, e.g. for localizations
 require('tracks.de.php');
 
 function convert($time) {
