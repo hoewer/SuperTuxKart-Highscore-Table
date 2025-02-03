@@ -1,7 +1,7 @@
 <?php
 
 // Set SQLite3 database to be used
-$dbConnect = new SQLite3('/volume1/docker/supertuxkart/stkservers.db');
+$dbConnect = new SQLite3('/path/to/your/stkservers.db');
 
 // Set track file for localizations
 require('tracks.en.php');
