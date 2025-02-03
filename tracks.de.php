@@ -1,5 +1,28 @@
 <?php
 
+$label = array(
+	'track' =>		"Strecke",
+	'chooseTrack' =>"Wähle Track",
+	'laps' =>		"Runden",
+	'chooseLaps' =>	"Anzahl Runden",
+	'direction' =>	"Richtung",
+	'mode' =>		"Modus",
+	'normal' =>		"normal",
+	'reverse' =>	"rückwärts",
+	'both' =>		"Alle",
+	'time-trial' =>	"Zeitrennen",
+	'recent' =>		"Neuste Rekorde",
+	'unique' =>		"Unique Players",
+	'yes' =>		"Ja",
+	'no' =>			"Nein",
+	'submit' =>		"Submit",
+	'icon' =>		"Icon",
+	'user' =>		"Fahrer",
+	'result' =>		"Rekord",
+	'date' =>		"Datum",
+	'more' =>		"mehr"
+);
+
 // Define your tracks: name, readable name, default laps
 $track = array(
 	array("mines", "Alte Mine", 3),

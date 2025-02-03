@@ -1,6 +1,29 @@
 <?php
 
-// Define your tracks: name, readable name, default laps
+$label = array(
+	'track' =>		"Track",
+	'chooseTrack' =>"Select Venue",
+	'laps' =>		"Laps",
+	'chooseLaps' =>	"Select Laps",
+	'direction' =>	"Direction",
+	'mode' =>		"Mode",
+	'normal' =>		"normal",
+	'reverse' =>	"reverse",
+	'both' =>		"Both",
+	'time-trial' =>	"Time-Trial",
+	'recent' =>		"Recent Records",
+	'unique' =>		"Unique Players",
+	'yes' =>		"Yes",
+	'no' =>			"No",
+	'submit' =>		"Submit",
+	'icon' =>		"Icon",
+	'user' =>		"Username",
+	'result' =>		"Result",
+	'date' =>		"Date",
+	'more' =>		"more"
+);
+
+// Define your tracks: STK-ID, readable name, default laps
 $track = array(
 	array("abyss", "Antediluvian Abyss", 3),
 	array("lighthouse", "Around the Lighthouse", 4),
